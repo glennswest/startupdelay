@@ -1,0 +1,28 @@
+    variant: openshift
+    version: 4.16.46 # Match your OpenShift version
+    metadata:
+      name: 99-worker-bootoptions
+      labels:
+        machineconfiguration.openshift.io/role: worker # Or master, if applicable
+    storage:
+      files:
+        - path: /etc/systemd/system/coreos-boot-options.service
+          mode: 0644
+          contents:
+            inline: |
+              [Unit]
+              Description=Apply custom boot options
+              After=network-online.target
+              [Service]
+              Type=oneshot
+              ExecStartPre=/usr/bin/chattr -i /etc/default/grub
+              ExecStart=/usr/bin/sed -i 's/^GRUB_CMDLINE_LINUX="\(.*\)"/GRUB_CMDLINE_LINUX="\1 systemd.unified_cgroup_hierarchy=0 systemd.legacy_systemd_cgroup_controller=1"/g' /etc/default/grub
+              ExecStartPost=/usr/bin/grub2-mkconfig -o /boot/grub2/grub.cfg
+              ExecStartPost=/usr/bin/chattr +i /etc/default/grub
+              [Install]
+              WantedBy=multi-user.target
+    systemd:
+      units:
+        - name: coreos-boot-options.service
+          enabled: true
+
