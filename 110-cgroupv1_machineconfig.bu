@@ -1,5 +1,5 @@
     variant: openshift
-    version: 4.16.46 # Match your OpenShift version
+    version: 4.16.0 # Match your OpenShift version
     metadata:
       name: 99-worker-bootoptions
       labels:
