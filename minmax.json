@@ -1,0 +1,76 @@
+{
+    "min": 100.0,
+    "max": 0.502227,
+    "line": "Current time: 2025-08-25 13:29:53.173, Time difference from previous: 0.502227 seconds\n",
+    "lineno": 2
+}{
+    "min": 0.502227,
+    "max": 0.502227,
+    "line": "Current time: 2025-08-25 13:29:53.173, Time difference from previous: 0.502227 seconds\n",
+    "lineno": 2
+}{
+    "min": 0.502227,
+    "max": 0.505751,
+    "line": "Current time: 2025-08-25 13:29:53.678, Time difference from previous: 0.505751 seconds\n",
+    "lineno": 3
+}{
+    "min": 0.502227,
+    "max": 0.506286,
+    "line": "Current time: 2025-08-25 13:30:01.751, Time difference from previous: 0.506286 seconds\n",
+    "lineno": 19
+}{
+    "min": 0.502227,
+    "max": 0.506432,
+    "line": "Current time: 2025-08-25 13:30:06.294, Time difference from previous: 0.506432 seconds\n",
+    "lineno": 28
+}{
+    "min": 0.502227,
+    "max": 0.508596,
+    "line": "Current time: 2025-08-25 13:30:15.383, Time difference from previous: 0.508596 seconds\n",
+    "lineno": 46
+}{
+    "min": 0.502227,
+    "max": 0.509454,
+    "line": "Current time: 2025-08-25 13:31:20.486, Time difference from previous: 0.509454 seconds\n",
+    "lineno": 175
+}{
+    "min": 0.502227,
+    "max": 0.51045,
+    "line": "Current time: 2025-08-25 13:31:20.993, Time difference from previous: 0.51045 seconds\n",
+    "lineno": 176
+}{
+    "min": 0.502227,
+    "max": 0.513259,
+    "line": "Current time: 2025-08-25 13:31:26.577, Time difference from previous: 0.513259 seconds\n",
+    "lineno": 187
+}{
+    "min": 0.502227,
+    "max": 0.515415,
+    "line": "Current time: 2025-08-25 13:31:32.151, Time difference from previous: 0.515415 seconds\n",
+    "lineno": 198
+}{
+    "min": 0.502227,
+    "max": 0.516031,
+    "line": "Current time: 2025-08-25 13:31:52.415, Time difference from previous: 0.516031 seconds\n",
+    "lineno": 238
+}{
+    "min": 0.502227,
+    "max": 0.51682,
+    "line": "Current time: 2025-08-25 13:32:04.057, Time difference from previous: 0.51682 seconds\n",
+    "lineno": 261
+}{
+    "min": 0.502227,
+    "max": 0.539865,
+    "line": "Current time: 2025-08-25 13:53:23.337, Time difference from previous: 0.539865 seconds\n",
+    "lineno": 2796
+}{
+    "min": 0.502227,
+    "max": 0.554244,
+    "line": "Current time: 2025-08-25 19:18:57.717, Time difference from previous: 0.554244 seconds\n",
+    "lineno": 41496
+}{
+    "min": 0.502227,
+    "max": 0.603815,
+    "line": "Current time: 2025-08-25 19:29:06.051, Time difference from previous: 0.603815 seconds\n",
+    "lineno": 42701
+}
