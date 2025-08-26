@@ -1,0 +1,7 @@
+NAME             STATUS   ROLES                  AGE     VERSION
+control0.gw.lo   Ready    control-plane,master   4d14h   v1.29.14+a6b193c
+control1.gw.lo   Ready    control-plane,master   4d14h   v1.29.14+a6b193c
+control2.gw.lo   Ready    control-plane,master   4d14h   v1.29.14+a6b193c
+worker0.gw.lo    Ready    worker                 4d14h   v1.29.14+a6b193c
+worker1.gw.lo    Ready    worker                 4d14h   v1.29.14+a6b193c
+worker2.gw.lo    Ready    worker                 4d14h   v1.29.14+a6b193c

@@ -1,0 +1,4 @@
+Client Version: 4.16.46
+Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
+Server Version: 4.16.46
+Kubernetes Version: v1.29.14+a6b193c
