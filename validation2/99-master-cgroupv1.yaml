@@ -1,0 +1,10 @@
+    apiVersion: machineconfiguration.openshift.io/v1
+    kind: MachineConfig
+    metadata:
+      labels:
+        machineconfiguration.openshift.io/role: master # Or worker, if applicable
+      name: 99-master-cgroupv1
+    spec:
+      kernelArguments:
+        - "systemd.unified_cgroup_hierarchy=0"
+        - "systemd.legacy_systemd_cgroup_controller=1"
