@@ -7,4 +7,3 @@
     spec:
       kernelArguments:
         - "systemd.unified_cgroup_hierarchy=0"
-        - "systemd.legacy_systemd_cgroup_controller=1"
