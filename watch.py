@@ -2,6 +2,7 @@
 
 import os
 import json
+import fileinput
 
 def is_decimal(s):
     try:
@@ -33,8 +34,7 @@ def update_values(themax,themin,theline,thecount):
          f.write(json_str)
          f.close()
 
-def watch_file():
-  with open('test.log', 'r') as file:
+def watch_file(theargs):
     if os.path.exists(".maxmin"):
        with open(".maxmin","r") as f:
             data = json.load(f)
@@ -45,7 +45,7 @@ def watch_file():
        themin = 100.0
        themax = -100.0
     linecount = 0
-    for line in file:
+    for line in fileinput.input(theargs):
         linecount = linecount + 1
         if line.startswith("Current time:"):
            theline = line
@@ -66,4 +66,4 @@ def watch_file():
                  update_values(themax,themin,theline,linecount)
   print("Min = " + str(themin) + " Max = " + str(themax) + " Linex = " + str(linecount))
 
-watch_file()
+watch_file(args)

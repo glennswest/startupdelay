@@ -1,2 +1,2 @@
-watch python watch.py
+watch python watch.py test.log
 
